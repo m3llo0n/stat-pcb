@@ -1,3 +1,5 @@
 # stat-pcb
-schematic + pcb for the new tech
-testetetest 123
+
+Schematic and PCB layout for the Student Tech Against Trafficking (STAT) project
+
+Code will be found in another repository (I think maybe, ask @m3llo0n)
