@@ -1,0 +1,115 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "BGU7005_115" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at 2.54 -4.445 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "BGU7005_115" (id 1) (at 2.54 -7.62 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "BGU7005_115:PSON50P145X100X50-6N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "6" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "NXP" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "0.5 mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC 7351B" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "BGU7005_115_0_0"
+      (polyline
+        (pts (xy -2.54 5.08) (xy -2.54 -5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -2.54 -5.08) (xy 0.0 -3.81)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 0.0 -3.81) (xy 7.62 0.0)) (stroke (width 0.4064))
+      )
+      (text "VCC" (at -0.762 5.969 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (text "GND" (at -0.762 -8.128 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 2.54 2.54)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 2.54 2.54) (xy 0.0 3.81)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 0.0 3.81) (xy -2.54 5.08)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -3.81)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 2.54 5.08) (xy 2.54 2.54)) (stroke (width 0.1524))
+      )
+      (text "VCC" (at -0.762 5.969 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (text "EN" (at 1.778 5.969 900)
+        (effects (font (size 0.8128 0.8128)) (justify bottom left))
+      )
+      (pin input line (at -7.62 0.0 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 10.16 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at 2.54 10.16 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
