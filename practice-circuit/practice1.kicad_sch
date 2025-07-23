@@ -1812,7 +1812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 135.382 77.47 90)
 			(effects
 				(font
@@ -1948,7 +1948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 132.842 110.49 90)
 			(effects
 				(font
@@ -2018,7 +2018,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 109.982 100.33 90)
 			(effects
 				(font
@@ -2085,7 +2085,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH1xxxxxxV2"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -2225,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0201_0603Metric"
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -2304,7 +2304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x01_P1.27mm_Vertical_SMD"
 			(at 205.74 93.98 0)
 			(effects
 				(font
@@ -2438,7 +2438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_Push_2P1T_Toggle_CK_PVA1xxH2xxxxxxV2"
 			(at 101.6 88.9 0)
 			(effects
 				(font
@@ -2644,7 +2644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 130.302 82.55 90)
 			(effects
 				(font
@@ -2854,7 +2854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "kicad-embed://ATTINY85-20PU.kicad_sym"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -3007,7 +3007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 128.27 74.93 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W7.62mm_P2.54mm_LowProfile"
 			(at 165.1 82.55 0)
 			(effects
 				(font
@@ -3206,4 +3206,22 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "ATTINY85-20PU.kicad_sym")
+			(type other)
+			(data |KLUv/WBJCRURANadWyAQsx7zJvAlrehxpn4z7XQOVbVgYTMNLFEHjxURACgAQFEATwBVAFmGHr8H
+				uZc1DF/oMVZ0Sur7P47L0L/3Mozhy4EeTR6zSvayOBYSySBy6A6IOu+7veu8M/34MdAjRSeldVbH
+				+X76PdC122Fd1jzQh23Z5W4gIF5Na6lvN/pOl1Hi5r5zL++dNQdxd38djVUl9Q/dD/rGmYP+7ctz
+				3EP36TYwUZJSp6aqVtKSfGfQ4/TtRh79Bb9+7iORg7Z+TtYc6O4O2HQcZaucntnb/UD/TdbbN/zQ
+				o+Q62x/07zA425fX0cQmRnXv7cghMpEUBoiJY9D47WY8Tp+VcEGmySqsGmBQtj4qqlIr67EwCDa+
+				mrNzRsjpVb0CcqJSERCtWlE7KYMjIVFrJ1lNFL3kVCfCQ5K6DOd7t6tdkevXvE5FZ6FAifya0npm
+				Y/B30C/qgUtebslKH9/O8cX0fzLH44Y7WWM2l0zz54A29K67AUcgkCSQETt6eYAQPSwow6nSTinD
+				gIq4hJP08FDmS2mnlGFQpy8h4UsNGnoIykAmImUIKkASIr0IOuLAgIxcWZeRuc/rVn75QnXyI48C
+				G0wVYmS4QCnUmLPBP/sgGonAT+/tBnsO2PzG8goP2LQzEQ9Um4ExgclYrueIt1Ntocl8J38Kkuvy
+				k88Q31YMQ2JEGgcTMFzkMF4RPIFg5IE2MN4GgJjBwLJ0u4Veuzo2Qx50Dw==|
+			)
+			(checksum "9B882925AFBF422FF1B22C0A950CA3E8")
+		)
+	)
 )
