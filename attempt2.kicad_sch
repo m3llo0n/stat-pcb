@@ -12247,7 +12247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 355.6 66.0399 0)
 			(effects
 				(font
@@ -12783,7 +12783,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 364.49 66.0399 0)
 			(effects
 				(font
@@ -17482,7 +17482,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 346.71 66.0399 0)
 			(effects
 				(font
