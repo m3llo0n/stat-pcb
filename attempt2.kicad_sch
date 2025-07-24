@@ -7540,9 +7540,9 @@
 		)
 		(uuid "588071b5-96e9-4c16-8a20-812e0426d319")
 	)
-	(text "VBUS = 5.0V +-0.5v 48V DC 280W\nUSB4110-GF-A"
+	(text "VBUS = 5.1V +-0.5v"
 		(exclude_from_sim no)
-		(at 56.896 259.08 0)
+		(at 51.308 253.746 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7550,7 +7550,7 @@
 		)
 		(uuid "61ebd89e-5545-4efa-bc25-9e80cc8dc672")
 	)
-	(text "VBAT = (2.0, 3.0, 3.1)V 1.0mAh\nBattery: ML414H IV01E Coin Cell Battery\n"
+	(text "VBAT = (3.0, 3.7, 4.2)V"
 		(exclude_from_sim no)
 		(at 91.186 336.296 0)
 		(effects
@@ -7615,16 +7615,6 @@
 			)
 		)
 		(uuid "bcd6fa7b-0b77-42ca-851c-fba7944bf449")
-	)
-	(text "VSYS = (3.3, 3.3, 3.3)V\nVIN RANGE: 1.8-5.5V\n"
-		(exclude_from_sim no)
-		(at 231.648 287.782 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c45eb7e2-6c97-45ff-8353-a3d4523c2aec")
 	)
 	(text "NOT EXPOSED"
 		(exclude_from_sim no)
