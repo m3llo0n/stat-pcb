@@ -7485,7 +7485,7 @@
 		)
 		(uuid de8eed61-70d2-4457-95bb-76984f084c07)
 	)
-	(text "# TODO:\n\n## bake\n- give mia the battery sense voltage divider values\n- antennae things\n\n## mia\n- assign footprints :)\n- add notes about the expected voltage/current values for things\n  (ie. buck/boost output, VBUS/VSYS lines, etc.)\n- route pcb"
+	(text "# TODO:\n\n## bake\n- give mia the battery sense voltage divider values\n- antennae things\n\n## mia\n- assign footprints :) \n	all done except for sw pins\n- add notes about the expected voltage/current values for things\n  (ie. buck/boost output, VBUS/VSYS lines, etc.)\n- route pcb"
 		(exclude_from_sim no)
 		(at 350.266 210.312 0)
 		(effects
@@ -7540,9 +7540,9 @@
 		)
 		(uuid "588071b5-96e9-4c16-8a20-812e0426d319")
 	)
-	(text "VBUS = 5.1V +-0.5v"
+	(text "VBUS = 5.0V +-0.5v 48V DC 280W\nUSB4110-GF-A"
 		(exclude_from_sim no)
-		(at 51.308 253.746 0)
+		(at 56.896 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7550,7 +7550,7 @@
 		)
 		(uuid "61ebd89e-5545-4efa-bc25-9e80cc8dc672")
 	)
-	(text "VBAT = (3.0, 3.7, 4.2)V"
+	(text "VBAT = (2.0, 3.0, 3.1)V 1.0mAh\nBattery: ML414H IV01E Coin Cell Battery\n"
 		(exclude_from_sim no)
 		(at 91.186 336.296 0)
 		(effects
@@ -7615,6 +7615,16 @@
 			)
 		)
 		(uuid "bcd6fa7b-0b77-42ca-851c-fba7944bf449")
+	)
+	(text "VSYS = (3.3, 3.3, 3.3)V\nVIN RANGE: 1.8-5.5V\n"
+		(exclude_from_sim no)
+		(at 231.648 287.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c45eb7e2-6c97-45ff-8353-a3d4523c2aec")
 	)
 	(text "NOT EXPOSED"
 		(exclude_from_sim no)
@@ -10760,7 +10770,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 132.842 260.35 90)
 			(effects
 				(font
@@ -10963,7 +10973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 539.75 80.01 0)
 			(effects
 				(font
@@ -11042,7 +11052,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 281.432 63.5 90)
 			(effects
 				(font
@@ -11112,7 +11122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 351.79 303.53 0)
 			(effects
 				(font
@@ -11178,7 +11188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 349.25 327.66 0)
 			(effects
 				(font
@@ -11377,7 +11387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 351.4852 68.58 0)
 			(effects
 				(font
@@ -11447,7 +11457,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 53.0352 367.03 0)
 			(effects
 				(font
@@ -11779,7 +11789,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CONN1_UFL-R_HIR"
+		(property "Footprint" "footprints:CONN1_UFL-R_HIR"
 			(at 236.22 110.49 0)
 			(effects
 				(font
@@ -11848,7 +11858,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 362.9152 68.58 0)
 			(effects
 				(font
@@ -11917,7 +11927,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 352.7552 313.69 0)
 			(effects
 				(font
@@ -11987,7 +11997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "BAT20JFILM:SOD-323"
+		(property "Footprint" "Diode_SMD:D_2114_3652Metric"
 			(at 193.04 295.91 0)
 			(effects
 				(font
@@ -12067,7 +12077,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 74.93 48.26 0)
 			(effects
 				(font
@@ -12132,7 +12142,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MCP73831T-2ACI_OT:SOT95P280X145-5N"
+		(property "Footprint" "MCP73831T_2ACI_OT:SOT95P280X145-5N"
 			(at 90.17 359.41 0)
 			(effects
 				(font
@@ -12328,7 +12338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 225.7552 151.13 0)
 			(effects
 				(font
@@ -12398,7 +12408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 240.792 115.57 90)
 			(effects
 				(font
@@ -12600,7 +12610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 485.902 67.31 90)
 			(effects
 				(font
@@ -12668,7 +12678,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 406.4 323.342 90)
 			(effects
 				(font
@@ -12737,7 +12747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 182.88 303.53 0)
 			(effects
 				(font
@@ -12786,7 +12796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3be80b18-ca5a-4eac-9691-b27229ac6cf7")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 255.27 149.86 0)
 			(effects
 				(font
@@ -12950,7 +12960,7 @@
 		(instances
 			(project "attempt2"
 				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13050,7 +13060,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 261.3152 312.42 0)
 			(effects
 				(font
@@ -13120,7 +13130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 417.5252 325.12 0)
 			(effects
 				(font
@@ -13190,7 +13200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43PSMTR"
 			(at 252.73 85.09 0)
 			(effects
 				(font
@@ -13259,7 +13269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 537.21 54.61 0)
 			(effects
 				(font
@@ -13388,7 +13398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 74.93 62.23 0)
 			(effects
 				(font
@@ -13457,7 +13467,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 240.03 74.93 0)
 			(effects
 				(font
@@ -13656,7 +13666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:nanoSIM_GCT_SIM8060-6-1-14-00"
 			(at 254 187.96 0)
 			(effects
 				(font
@@ -13737,7 +13747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 292.1 184.15 0)
 			(effects
 				(font
@@ -13869,7 +13879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 125.73 81.28 0)
 			(effects
 				(font
@@ -13935,7 +13945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 496.57 147.32 0)
 			(effects
 				(font
@@ -14002,7 +14012,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 320.802 321.31 90)
 			(effects
 				(font
@@ -14069,7 +14079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 125.73 365.252 90)
 			(effects
 				(font
@@ -14138,7 +14148,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 281.94 303.53 0)
 			(effects
 				(font
@@ -14203,7 +14213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS63031DSKR:SON50P250X250X80-11N"
+		(property "Footprint" "Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm"
 			(at 232.41 318.77 0)
 			(effects
 				(font
@@ -14340,7 +14350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 373.38 57.15 0)
 			(effects
 				(font
@@ -14407,7 +14417,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 539.75 59.69 0)
 			(effects
 				(font
@@ -14608,7 +14618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx73SMTR"
 			(at 471.17 142.24 0)
 			(effects
 				(font
@@ -14808,7 +14818,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 247.65 112.268 90)
 			(effects
 				(font
@@ -14877,7 +14887,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 124.46 246.38 0)
 			(effects
 				(font
@@ -15141,7 +15151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 201.6252 313.69 0)
 			(effects
 				(font
@@ -15211,7 +15221,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 122.682 260.35 90)
 			(effects
 				(font
@@ -15345,7 +15355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP2102N-A02-GQFN24R:QFN50P400X400X80-25N"
+		(property "Footprint" "CP2102N_A02_GQFN24R:QFN50P400X400X80-25N"
 			(at 378.46 337.82 0)
 			(effects
 				(font
@@ -15849,7 +15859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 250.952 115.57 90)
 			(effects
 				(font
@@ -16364,7 +16374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 341.3252 68.58 0)
 			(effects
 				(font
@@ -16434,7 +16444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 190.1952 312.42 0)
 			(effects
 				(font
@@ -16568,7 +16578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 93.98 261.62 0)
 			(effects
 				(font
@@ -16742,7 +16752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 280.67 58.42 0)
 			(effects
 				(font
@@ -16875,7 +16885,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 484.632 158.75 90)
 			(effects
 				(font
@@ -16945,7 +16955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN1_UFL-R_HIR"
+		(property "Footprint" "footprints:CONN1_UFL-R_HIR"
 			(at 73.66 48.26 0)
 			(effects
 				(font
@@ -17079,7 +17089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 342.5952 313.69 0)
 			(effects
 				(font
@@ -17147,7 +17157,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 248.92 76.708 90)
 			(effects
 				(font
@@ -17283,7 +17293,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 537.972 68.58 90)
 			(effects
 				(font
@@ -17352,7 +17362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 485.14 62.23 0)
 			(effects
 				(font
@@ -17484,7 +17494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 123.19 361.95 0)
 			(effects
 				(font
@@ -18078,7 +18088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 271.78 111.76 0)
 			(effects
 				(font
@@ -18145,7 +18155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 320.802 332.74 90)
 			(effects
 				(font
@@ -18281,7 +18291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 145.542 68.58 90)
 			(effects
 				(font
@@ -18613,7 +18623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 118.11 356.87 0)
 			(effects
 				(font
@@ -18746,7 +18756,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
 			(at 487.68 78.74 0)
 			(effects
 				(font
@@ -18822,7 +18832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 142.24 365.252 90)
 			(effects
 				(font
@@ -19023,7 +19033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 59.182 370.84 90)
 			(effects
 				(font
@@ -19091,7 +19101,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 67.31 61.2648 0)
 			(effects
 				(font
@@ -19158,7 +19168,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric"
 			(at 209.55 321.31 0)
 			(effects
 				(font
@@ -19360,7 +19370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 428.9552 325.12 0)
 			(effects
 				(font
@@ -19429,7 +19439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 240.03 143.51 0)
 			(effects
 				(font
@@ -19627,7 +19637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 83.5152 71.12 0)
 			(effects
 				(font
@@ -19763,7 +19773,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCB_schem_downloads:SEIKO_ML414H_IV01E"
 			(at 115.57 373.126 90)
 			(effects
 				(font
@@ -19831,7 +19841,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SC-70-6_C6_MCH"
+		(property "Footprint" "footprints:SC-70-6_C6_MCH"
 			(at 90.17 62.23 0)
 			(effects
 				(font
