@@ -3373,6 +3373,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SB120"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SB120"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SB120_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SB120_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -8158,6 +8308,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 373.38) (xy 115.57 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a5caf7-c8f6-4190-abcc-124fb21cc8ee")
+	)
+	(wire
+		(pts
 			(xy 252.73 110.49) (xy 276.86 110.49)
 		)
 		(stroke
@@ -9388,7 +9548,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 378.46) (xy 115.57 377.19)
+			(xy 115.57 391.16) (xy 115.57 394.97)
 		)
 		(stroke
 			(width 0)
@@ -10128,7 +10288,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 369.57) (xy 115.57 367.03)
+			(xy 115.57 383.54) (xy 115.57 381)
 		)
 		(stroke
 			(width 0)
@@ -13358,6 +13518,76 @@
 			(project "attempt2"
 				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SB120")
+		(at 115.57 377.19 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46a8133f-c26f-4df7-bbc4-7e5595c41d1b")
+		(property "Reference" "D2"
+			(at 118.11 375.6024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SB120"
+			(at 118.11 378.1424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 111.125 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds23022.pdf"
+			(at 115.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "20V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 115.57 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "563c19ca-7a16-4cee-8473-9a2574dd21c9")
+		)
+		(pin "1"
+			(uuid "0125197b-6ffe-42df-849e-f5010ce0236f")
+		)
+		(instances
+			(project ""
+				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19268,7 +19498,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 378.46 0)
+		(at 115.57 394.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19277,7 +19507,7 @@
 		(fields_autoplaced yes)
 		(uuid "e64567bb-7e1b-48d2-a683-0fb248d0a9e6")
 		(property "Reference" "#PWR026"
-			(at 115.57 384.81 0)
+			(at 115.57 401.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19286,7 +19516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 383.54 0)
+			(at 115.57 400.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19294,7 +19524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 378.46 0)
+			(at 115.57 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19303,7 +19533,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 378.46 0)
+			(at 115.57 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19312,7 +19542,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 378.46 0)
+			(at 115.57 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19737,7 +19967,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 115.57 374.65 0)
+		(at 115.57 388.62 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19746,7 +19976,7 @@
 		(dnp no)
 		(uuid "f644bee2-4831-45d0-85ac-1ac0242662af")
 		(property "Reference" "BT1"
-			(at 111.76 371.5384 0)
+			(at 111.76 385.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19755,7 +19985,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 111.76 374.0784 0)
+			(at 111.76 388.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19764,7 +19994,7 @@
 			)
 		)
 		(property "Footprint" "PCB_schem_downloads:SEIKO_ML414H_IV01E"
-			(at 115.57 373.126 90)
+			(at 115.57 387.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19773,7 +20003,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 373.126 90)
+			(at 115.57 387.096 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19782,7 +20012,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 115.57 374.65 0)
+			(at 115.57 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
