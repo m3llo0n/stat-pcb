@@ -1583,6 +1583,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:SIM_Card"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2578,183 +2741,6 @@
 						)
 					)
 					(number "B6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8714,6 +8700,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 388.62) (xy 115.57 394.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364c66d6-ed77-4c1f-ba6e-c1f079bd19e1")
+	)
+	(wire
+		(pts
 			(xy 78.74 62.23) (xy 82.55 62.23)
 		)
 		(stroke
@@ -9484,7 +9480,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 391.16) (xy 115.57 394.97)
+			(xy 115.57 381) (xy 115.57 386.08)
 		)
 		(stroke
 			(width 0)
@@ -10231,16 +10227,6 @@
 			(type default)
 		)
 		(uuid "e5ffbca1-4c92-4ab3-bda7-80d370b7b1f2")
-	)
-	(wire
-		(pts
-			(xy 115.57 383.54) (xy 115.57 381)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e83111a8-d133-4cac-9d83-b148fb2272f3")
 	)
 	(wire
 		(pts
@@ -11159,7 +11145,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 285.75 64.7699 0)
 			(effects
 				(font
@@ -12713,7 +12699,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500k"
 			(at 490.22 68.5799 0)
 			(effects
 				(font
@@ -14185,7 +14171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "22k"
 			(at 325.12 322.5799 0)
 			(effects
 				(font
@@ -14253,7 +14239,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 125.73 370.84 90)
 			(effects
 				(font
@@ -16994,7 +16980,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 488.95 160.0199 0)
 			(effects
 				(font
@@ -17333,7 +17319,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 248.92 71.12 90)
 			(effects
 				(font
@@ -17468,7 +17454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500k"
 			(at 542.29 69.8499 0)
 			(effects
 				(font
@@ -18397,7 +18383,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "33k"
 			(at 325.12 334.0099 0)
 			(effects
 				(font
@@ -19075,7 +19061,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 142.24 370.84 90)
 			(effects
 				(font
@@ -19931,8 +19917,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 115.57 388.62 0)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 120.65 386.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19941,7 +19927,7 @@
 		(dnp no)
 		(uuid "f644bee2-4831-45d0-85ac-1ac0242662af")
 		(property "Reference" "BT1"
-			(at 111.76 385.5084 0)
+			(at 114.808 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19950,7 +19936,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 111.76 388.0484 0)
+			(at 114.808 388.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19959,7 +19945,7 @@
 			)
 		)
 		(property "Footprint" "PHR_2:JST_PHR-2"
-			(at 115.57 387.096 90)
+			(at 120.65 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19968,7 +19954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 387.096 90)
+			(at 120.65 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,8 +19962,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single-cell battery"
-			(at 115.57 388.62 0)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 120.65 386.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
