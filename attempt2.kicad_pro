@@ -226,7 +226,52 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1892300|1562100|8895fbe7-19ff-4486-bee2-62400035ee7f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|1892300|1562100|8895fbe7-19ff-4486-bee2-62400035ee7f|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|2324100|3187700|62230e67-83ba-45ce-adf1-36e8b2ce967b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|901700|3594100|2688e69c-dae3-417a-9832-f72b9a884dcd|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "pin_to_pin|2362200|1104900|6001134c-a320-4745-a661-371e321df1a8|4997e8a9-2488-4811-8557-bd05f9f3a110|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae",
+        ""
+      ],
+      [
+        "pin_to_pin|736600|482600|e87ab0fa-be7b-41bd-b9a0-0cac24eb6251|ad6d6190-f6a5-4b86-ad04-6e7dfad1f3d4|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae",
+        ""
+      ],
+      [
+        "pin_to_pin|901700|647700|929f7302-83bf-48a2-bdfd-5216beee485f|8bcee919-05de-4bc8-b3d2-a63f43224223|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1930400|2921000|92d69211-e6cb-446d-8377-4f29497779b5|00000000-0000-0000-0000-000000000000|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2832100|571500|135aa6a6-d76f-4d36-bc23-2a77e4147ec8|00000000-0000-0000-0000-000000000000|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|4013200|3200400|ce2054d9-da1b-49c4-a5c7-b13964464453|00000000-0000-0000-0000-000000000000|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|4114800|3238500|cc1ed0af-03be-4fb2-891f-3a1d9611d655|00000000-0000-0000-0000-000000000000|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
