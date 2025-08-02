@@ -11588,7 +11588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1M"
+		(property "Value" "10k"
 			(at 285.75 64.7699 0)
 			(effects
 				(font
@@ -13072,7 +13072,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 219.71 351.7899 0)
 			(effects
 				(font
@@ -14676,7 +14676,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 125.73 370.84 90)
 			(effects
 				(font
@@ -17495,7 +17495,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "4.7k"
 			(at 337.82 367.0299 0)
 			(effects
 				(font
@@ -17835,7 +17835,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 226.0601 72.39 0)
 			(effects
 				(font
@@ -17971,7 +17971,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "500"
 			(at 271.78 353.0599 0)
 			(effects
 				(font
@@ -19445,7 +19445,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100k"
 			(at 142.24 370.84 90)
 			(effects
 				(font
