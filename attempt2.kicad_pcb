@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "STAT BOARD")
+		(date "2025-08-02")
+		(rev "v1.0")
+		(company "XIBIDI TECHNOLOGIES")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -12344,7 +12350,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a0259f2d-dcb5-4f3c-b6fc-6339720c17b8")
+			(uuid "761a88d3-a011-48ca-bd2f-a0b567a22ef0")
 		)
 		(pad "S1" smd roundrect
 			(at 5.11 -3.105 270)
@@ -12355,7 +12361,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a0259f2d-dcb5-4f3c-b6fc-6339720c17b8")
+			(uuid "36f19041-f5cc-4d23-bc94-744aa65e9be0")
 		)
 		(pad "S1" smd roundrect
 			(at 5.11 0.825 270)
@@ -12366,7 +12372,7 @@
 			(pinfunction "SHIELD")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a0259f2d-dcb5-4f3c-b6fc-6339720c17b8")
+			(uuid "abdcdbf7-2dea-460c-a6d0-e1c60190b196")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4110.step"
@@ -17399,7 +17405,7 @@
 		(layer "Edge.Cuts")
 		(uuid "a0e184eb-a340-4a00-81c7-6229bbf81919")
 	)
-	(gr_text "STAT BOARD\nv1.0"
+	(gr_text "STAT BOARD\n8/2/2025\nv1.0"
 		(at 170.5 133 0)
 		(layer "F.SilkS")
 		(uuid "1b5d766d-bc8b-4406-916e-5d58abb7818b")
