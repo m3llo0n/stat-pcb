@@ -7623,17 +7623,6 @@
 		)
 		(uuid de8eed61-70d2-4457-95bb-76984f084c07)
 	)
-	(text "# TODO:\n\n## bake\n- give mia the battery sense voltage divider values\n- antennae things\n\n## mia\n- assign footprints :) \n	all done except for sw pins\n- add notes about the expected voltage/current values for things\n  (ie. buck/boost output, VBUS/VSYS lines, etc.)\n- route pcb"
-		(exclude_from_sim no)
-		(at 350.266 210.312 0)
-		(effects
-			(font
-				(size 3.81 3.81)
-			)
-			(justify left)
-		)
-		(uuid "12ea8205-fd8f-454a-9bdd-4134b2a72397")
-	)
 	(text "GPS ANTENNA"
 		(exclude_from_sim no)
 		(at 110.49 33.02 0)
@@ -15308,7 +15297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "5.1k"
 			(at 127 261.6199 0)
 			(effects
 				(font
@@ -15946,7 +15935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "1n"
 			(at 231.14 180.3399 0)
 			(effects
 				(font
@@ -16748,7 +16737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
 			(at 93.98 261.62 0)
 			(effects
 				(font

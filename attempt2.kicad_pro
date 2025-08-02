@@ -52,12 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|104290000|93000000|b8dba9c7-ccb3-4d20-92ea-7bb49c239ddf|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
