@@ -1793,7 +1793,7 @@
 		(uuid "1e07dd15-d645-4df2-b006-ee8ffdd7ca31")
 		(at 138.4 117.6 180)
 		(property "Reference" "U4"
-			(at -3.125 -7.435 0)
+			(at -3.3 -6.2 0)
 			(layer "F.SilkS")
 			(uuid "55168906-6589-4744-8868-cf5af9dcf57b")
 			(effects
@@ -3080,7 +3080,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C27"
-			(at 0 -1.43 90)
+			(at 2.15 0.15 180)
 			(layer "F.SilkS")
 			(uuid "e469f084-c67f-488a-a20a-ed566bddbb84")
 			(effects
@@ -3526,7 +3526,7 @@
 		(uuid "32914818-c191-454e-9260-e714634f2917")
 		(at 113.15 99.675 -90)
 		(property "Reference" "U7"
-			(at -3.175 -0.025 180)
+			(at 0.225 -3.3 270)
 			(layer "F.SilkS")
 			(uuid "1c4d8fcc-19ef-40f0-ad44-c1f586b041e1")
 			(effects
@@ -5404,7 +5404,7 @@
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP19"
-			(at 2.025 -0.025 270)
+			(at 0 2.1 0)
 			(layer "F.SilkS")
 			(uuid "6ce5ee18-9230-4166-99e8-131c0dbda372")
 			(effects
@@ -5610,7 +5610,7 @@
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP21"
-			(at 1.8 -0.25 0)
+			(at 2.15 -0.2 0)
 			(layer "F.SilkS")
 			(uuid "42123e46-0182-443c-8666-6a20092761d6")
 			(effects
@@ -5713,7 +5713,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 0 -1.43 270)
+			(at 1.975 0 0)
 			(layer "F.SilkS")
 			(uuid "4390f956-9636-4eee-92a9-b5159620b274")
 			(effects
@@ -5912,7 +5912,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.43 0)
+			(at 0.125 1.45 0)
 			(layer "F.SilkS")
 			(uuid "aa70976a-fc08-4446-9207-161826db1605")
 			(effects
@@ -6509,7 +6509,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C23"
-			(at 0 -1.43 0)
+			(at 0.14058 1.55 0)
 			(layer "F.SilkS")
 			(uuid "0594255e-8c8e-40f4-85d2-8c30275bdef0")
 			(effects
@@ -6907,7 +6907,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R11"
-			(at 0 -1.43 0)
+			(at -0.05 1.9 0)
 			(layer "F.SilkS")
 			(uuid "dcf45401-3bfb-4fec-9264-516316e5681d")
 			(effects
@@ -7504,7 +7504,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C26"
-			(at 0 -1.43 90)
+			(at 2.45 0.15 180)
 			(layer "F.SilkS")
 			(uuid "9c292313-38e3-458f-be8a-b222a69a38b0")
 			(effects
@@ -10041,7 +10041,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 0)
+			(at 0 -1.9 0)
 			(layer "F.SilkS")
 			(uuid "8099ad99-15e4-488c-899a-f0e26e45bfe1")
 			(effects
@@ -11452,7 +11452,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R10"
-			(at 0 -1.43 0)
+			(at -0.05 1.7 0)
 			(layer "F.SilkS")
 			(uuid "28bd993a-01fd-465e-83cf-431127942901")
 			(effects
@@ -13803,7 +13803,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.43 0)
+			(at 0 1.55 0)
 			(layer "F.SilkS")
 			(uuid "964aabc4-8812-48ca-9ea1-aec0455b10c0")
 			(effects
@@ -15193,7 +15193,7 @@
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
-			(at 0 -1.998 0)
+			(at 2.2 -0.05 90)
 			(layer "F.SilkS")
 			(uuid "9f3068fe-0cbe-422a-a413-9ca10abcd904")
 			(effects
@@ -15492,7 +15492,7 @@
 	)
 	(gr_rect
 		(start 101 86.975)
-		(end 172.5 140.75)
+		(end 172.5 141.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15502,7 +15502,7 @@
 		(uuid "a0e184eb-a340-4a00-81c7-6229bbf81919")
 	)
 	(gr_text "STAT BOARD\n8/2/2025\nv1.0"
-		(at 89.35 125.65 0)
+		(at 102.8 139.9 0)
 		(layer "F.SilkS")
 		(uuid "1b5d766d-bc8b-4406-916e-5d58abb7818b")
 		(effects
@@ -15514,7 +15514,7 @@
 		)
 	)
 	(gr_text "RESET"
-		(at 166.85 139.25 90)
+		(at 125.3 141.2 0)
 		(layer "F.SilkS")
 		(uuid "22062c80-2397-4b84-8f6a-ef9a31b0d111")
 		(effects
@@ -15526,8 +15526,21 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "USB-C"
+		(at 106.7 96.05 0)
+		(layer "F.SilkS")
+		(uuid "2e988b8b-a355-4cdf-bc38-d0c6d45ad4d1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SIM"
-		(at 162.45 104.05 0)
+		(at 160.91 109.74 0)
 		(layer "F.SilkS")
 		(uuid "3005efe4-1b57-471c-97bf-903c1ff2861e")
 		(effects
@@ -15540,7 +15553,7 @@
 		)
 	)
 	(gr_text "CELLULAR ANTENNA"
-		(at 159.25 97 0)
+		(at 148.85 95.95 0)
 		(layer "F.SilkS")
 		(uuid "ab890f07-8f68-4496-a909-e827bb144248")
 		(effects
@@ -15553,9 +15566,22 @@
 		)
 	)
 	(gr_text "GPS ANTENNA"
-		(at 84 116.5 0)
+		(at 103.6 128.35 0)
 		(layer "F.SilkS")
 		(uuid "bdf1d584-738f-43b7-9a70-ddfdc9c56e2d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IC"
+		(at 140.7 111.7 0)
+		(layer "F.SilkS")
+		(uuid "fdc15ecd-751c-4d4f-968e-28cea72508c1")
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -18685,8 +18711,8 @@
 		(filled_polygon
 			(layer "F.Cu")
 			(pts
-				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.306) (xy 172.100194 140.350194)
-				(xy 172.056 140.3685) (xy 101.444 140.3685) (xy 101.399806 140.350194) (xy 101.3815 140.306) (xy 101.3815 139.112507)
+				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.956) (xy 172.100194 141.000194)
+				(xy 172.056 141.0185) (xy 101.444 141.0185) (xy 101.399806 141.000194) (xy 101.3815 140.956) (xy 101.3815 139.112507)
 				(xy 126.072999 139.112507) (xy 126.080369 139.149553) (xy 126.080369 139.149554) (xy 126.108438 139.191561)
 				(xy 126.150446 139.21963) (xy 126.187493 139.227) (xy 126.4 139.227) (xy 126.9 139.227) (xy 127.112507 139.227)
 				(xy 127.149553 139.21963) (xy 127.149554 139.21963) (xy 127.191561 139.191561) (xy 127.21963 139.149554)
@@ -20225,8 +20251,8 @@
 		(filled_polygon
 			(layer "B.Cu")
 			(pts
-				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.306) (xy 172.100194 140.350194)
-				(xy 172.056 140.3685) (xy 101.444 140.3685) (xy 101.399806 140.350194) (xy 101.3815 140.306) (xy 101.3815 124.193509)
+				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.956) (xy 172.100194 141.000194)
+				(xy 172.056 141.0185) (xy 101.444 141.0185) (xy 101.399806 141.000194) (xy 101.3815 140.956) (xy 101.3815 124.193509)
 				(xy 132.2709 124.193509) (xy 132.2709 124.30649) (xy 132.270901 124.306498) (xy 132.30014 124.415623)
 				(xy 132.300141 124.415626) (xy 132.300142 124.415627) (xy 132.356634 124.513474) (xy 132.417694 124.574534)
 				(xy 132.436 124.618728) (xy 132.436 134.246627) (xy 132.476189 134.343652) (xy 132.476191 134.343655)
@@ -20573,8 +20599,8 @@
 		(filled_polygon
 			(layer "In1.Cu")
 			(pts
-				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.306) (xy 172.100194 140.350194)
-				(xy 172.056 140.3685) (xy 101.444 140.3685) (xy 101.399806 140.350194) (xy 101.3815 140.306) (xy 101.3815 134.443509)
+				(xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.956) (xy 172.100194 141.000194)
+				(xy 172.056 141.0185) (xy 101.444 141.0185) (xy 101.399806 141.000194) (xy 101.3815 140.956) (xy 101.3815 134.443509)
 				(xy 133.1709 134.443509) (xy 133.1709 134.55649) (xy 133.170901 134.556498) (xy 133.20014 134.665623)
 				(xy 133.200141 134.665626) (xy 133.256635 134.763475) (xy 133.256638 134.763479) (xy 133.33652 134.843361)
 				(xy 133.336524 134.843364) (xy 133.336526 134.843366) (xy 133.434373 134.899858) (xy 133.434376 134.899859)
@@ -20996,9 +21022,9 @@
 				(xy 169.593637 131.226394) (xy 169.619193 131.195255) (xy 169.648735 131.151043) (xy 169.667727 131.115512)
 				(xy 169.677059 131.092982) (xy 169.688752 131.054435) (xy 169.70035 130.996131) (xy 169.703309 130.97618)
 				(xy 169.70451 130.963986) (xy 169.7055 130.943844) (xy 169.7055 87.419) (xy 169.723806 87.374806)
-				(xy 169.768 87.3565) (xy 172.056 87.3565) (xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.306)
-				(xy 172.100194 140.350194) (xy 172.056 140.3685) (xy 101.444 140.3685) (xy 101.399806 140.350194)
-				(xy 101.3815 140.306) (xy 101.3815 134.443509) (xy 133.1709 134.443509) (xy 133.1709 134.55649)
+				(xy 169.768 87.3565) (xy 172.056 87.3565) (xy 172.100194 87.374806) (xy 172.1185 87.419) (xy 172.1185 140.956)
+				(xy 172.100194 141.000194) (xy 172.056 141.0185) (xy 101.444 141.0185) (xy 101.399806 141.000194)
+				(xy 101.3815 140.956) (xy 101.3815 134.443509) (xy 133.1709 134.443509) (xy 133.1709 134.55649)
 				(xy 133.170901 134.556498) (xy 133.20014 134.665623) (xy 133.200141 134.665626) (xy 133.256635 134.763475)
 				(xy 133.256638 134.763479) (xy 133.33652 134.843361) (xy 133.336524 134.843364) (xy 133.336526 134.843366)
 				(xy 133.434373 134.899858) (xy 133.434376 134.899859) (xy 133.501154 134.917751) (xy 133.543508 134.9291)
