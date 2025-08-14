@@ -7864,10 +7864,6 @@
 		(uuid "07f6d6c0-0de9-469d-aefa-0a2056986701")
 	)
 	(no_connect
-		(at 179.07 167.64)
-		(uuid "10ad393d-7753-4f3d-b8b5-58d4c37770f0")
-	)
-	(no_connect
 		(at 201.93 133.35)
 		(uuid "124b7505-f892-4fcb-9fa8-f726186d442f")
 	)
@@ -7942,10 +7938,6 @@
 	(no_connect
 		(at 201.93 115.57)
 		(uuid "6e8b956a-56e1-4309-84a0-c209ab39e978")
-	)
-	(no_connect
-		(at 430.53 259.08)
-		(uuid "710557d9-04e1-42e1-9806-9d79a8aea4b9")
 	)
 	(no_connect
 		(at 295.91 264.16)
@@ -8062,14 +8054,6 @@
 	(no_connect
 		(at 295.91 266.7)
 		(uuid "cc64df16-6666-44e3-9e67-dda8ec19f589")
-	)
-	(no_connect
-		(at 368.3 175.26)
-		(uuid "cfc2297c-a9cf-4b50-a56e-a1c309ac7e0f")
-	)
-	(no_connect
-		(at 179.07 165.1)
-		(uuid "d202e0a1-1022-4a88-bef4-0548dd780352")
 	)
 	(no_connect
 		(at 201.93 120.65)
@@ -14062,7 +14046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7u"
 			(at 276.86 71.1199 0)
 			(effects
 				(font
@@ -15555,7 +15539,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10u"
 			(at 139.7 60.9599 0)
 			(effects
 				(font
@@ -16367,7 +16351,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "47u"
 			(at 110.49 60.9599 0)
 			(effects
 				(font
@@ -16704,7 +16688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 100.33 60.9599 0)
 			(effects
 				(font
@@ -17912,7 +17896,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead"
+		(property "Value" "22R/100MHz"
 			(at 121.8692 50.8 90)
 			(effects
 				(font
@@ -18323,7 +18307,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 88.9 60.9599 0)
 			(effects
 				(font
