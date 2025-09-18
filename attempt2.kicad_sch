@@ -7505,7 +7505,7 @@
 	)
 	(text "CHARGING POWER LIGHT"
 		(exclude_from_sim no)
-		(at 216.408 314.198 0)
+		(at 238.76 327.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7962,16 +7962,16 @@
 		(uuid "cb685523-bf3f-45e4-aca8-91968f7c9a52")
 	)
 	(junction
-		(at 200.66 340.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb95fd58-fb2d-4e35-96a2-cd2e630ec679")
-	)
-	(junction
 		(at 208.28 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6b9358e-8367-4890-984c-e17d1af8f009")
+	)
+	(junction
+		(at 200.66 340.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc9ae7a7-929c-4dd4-92c3-78175fe53acc")
 	)
 	(junction
 		(at 144.78 198.12)
@@ -8429,6 +8429,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 317.5) (xy 207.01 318.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126bfcd4-a03a-4d71-a983-5db59d2f985e")
+	)
+	(wire
+		(pts
 			(xy 153.67 80.01) (xy 149.86 80.01)
 		)
 		(stroke
@@ -8819,6 +8829,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 331.47) (xy 200.66 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3787be9e-facc-45e0-a7dd-610cbf663ee2")
+	)
+	(wire
+		(pts
 			(xy 208.28 190.5) (xy 208.28 194.31)
 		)
 		(stroke
@@ -9149,6 +9169,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 340.36) (xy 207.01 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf7b874-80ca-4797-aec3-d509f9ff1ecc")
+	)
+	(wire
+		(pts
 			(xy 144.78 195.58) (xy 153.67 195.58)
 		)
 		(stroke
@@ -9269,16 +9299,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 340.36) (xy 200.66 340.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69c0ec23-05f4-47cb-ac1d-8498e1e7a5b6")
-	)
-	(wire
-		(pts
 			(xy 52.07 114.3) (xy 63.5 114.3)
 		)
 		(stroke
@@ -9286,16 +9306,6 @@
 			(type default)
 		)
 		(uuid "6a605db0-ef21-4d2c-bc33-fcbed3abf5f3")
-	)
-	(wire
-		(pts
-			(xy 208.28 307.34) (xy 207.01 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae255aa-6fc5-4f7f-958f-289ac7722b7f")
 	)
 	(wire
 		(pts
@@ -9806,16 +9816,6 @@
 			(type default)
 		)
 		(uuid "a80478a9-3345-49b3-a189-e066ce2be44a")
-	)
-	(wire
-		(pts
-			(xy 207.01 307.34) (xy 207.01 318.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a95cfb68-f651-4471-bbf9-a9f1b7fe5534")
 	)
 	(wire
 		(pts
@@ -10833,7 +10833,7 @@
 	)
 	(global_label "CHARGE_STAT"
 		(shape input)
-		(at 208.28 307.34 0)
+		(at 200.66 331.47 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10843,7 +10843,7 @@
 		)
 		(uuid "7518cfec-f65c-4fe9-91c2-17462cc29ef9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.8442 307.34 0)
+			(at 200.66 315.9058 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12602,6 +12602,72 @@
 			(project "attempt2"
 				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V8")
+		(at 207.01 317.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21256e47-1661-4893-8a9f-9901d2947455")
+		(property "Reference" "#PWR05"
+			(at 207.01 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V8"
+			(at 207.01 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V8\""
+			(at 207.01 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "558a0752-33a4-4580-a77c-56e3377e9e24")
+		)
+		(instances
+			(project "attempt2"
+				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -18463,72 +18529,6 @@
 			(project "attempt2"
 				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 200.66 340.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7ff32d5-ec50-41ca-9b03-c69f1a214ba1")
-		(property "Reference" "TP10"
-			(at 194.056 336.042 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 194.056 338.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 205.74 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 200.66 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af49275a-c84e-4c37-9f9f-d88187cc281b")
-		)
-		(instances
-			(project "attempt2"
-				(path "/b2ea7ca0-f81a-4f8c-9e17-16fbc56b39ae"
-					(reference "TP10")
 					(unit 1)
 				)
 			)
