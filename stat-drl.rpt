@@ -1,0 +1,28 @@
+Drill report for attempt2.kicad_pcb
+Created on 2025-10-04T17:29:03-0400
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'attempt2-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.254mm  0.0100"  (116 holes)
+    T2  0.300mm  0.0118"  (5 holes)
+    T3  1.000mm  0.0394"  (2 holes)
+    T4  1.100mm  0.0433"  (1 hole)
+
+    Total plated holes count 124
+
+
+Drill file 'attempt2-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.650mm  0.0256"  (2 holes)
+
+    Total unplated holes count 2
